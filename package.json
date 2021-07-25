@@ -1,0 +1,23 @@
+{
+  "name": "hardhat_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brad-computer-4/hardhat_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brad-computer-4/hardhat_practice/issues"
+  },
+  "homepage": "https://github.com/brad-computer-4/hardhat_practice#readme",
+  "devDependencies": {
+    "hardhat": "^2.5.0"
+  }
+}
