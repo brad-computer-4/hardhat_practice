@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/bradley/repositories/hardhat_practice/contracts/PracticeContract.sol": {
-      "lastModificationDate": 1627227741339,
-      "contentHash": "1de743a8dd0d0b63ae38612319ccc213",
+      "lastModificationDate": 1627228364055,
+      "contentHash": "8fdcedca9f9716928e21d7ffc6f23bce",
       "sourceName": "contracts/PracticeContract.sol",
       "solcConfig": {
         "version": "0.7.3",
@@ -32,7 +32,43 @@
         "=0.7.3"
       ],
       "artifacts": [
-        "MyFirstContract"
+        "PracticeContract"
+      ]
+    },
+    "/Users/bradley/repositories/hardhat_practice/contracts/ERC-20.sol": {
+      "lastModificationDate": 1627228805955,
+      "contentHash": "3f362f7c082e211e48e9c146b05c7c03",
+      "sourceName": "contracts/ERC-20.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.7.3"
+      ],
+      "artifacts": [
+        "ERC20Basic",
+        "IERC20",
+        "SafeMath"
       ]
     }
   }
