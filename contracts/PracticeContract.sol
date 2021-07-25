@@ -1,5 +1,5 @@
 pragma solidity =0.7.3;
-contract MyFirstContract {
+contract PracticeContract {
  
     uint256 number;
  
